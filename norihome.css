@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 /*
 スマホ：320px - 480px
@@ -67,7 +67,8 @@ img{
 
 
 /*スマホのスタイル*/
-@media screen and(min-width:0px)and(max-width:480px){
+/*
+@media screen and (max-width:480px){
 	#footerNavLink{
 		display: block;
 	}
@@ -78,9 +79,14 @@ img{
 		display: block;
 	}
 }
+*/
+	#headerNav{
+		display: none;
+	}
+
 
 /*タブレットのスタイル*/
-@media screen and(min-width:481px)and(max-width:768px){
+@media screen and (min-width: 480px){
 	#footerNavLink{
 		display: none;
 	}
@@ -100,7 +106,7 @@ margin:15px
 main:765px
 */
 
-@media screen and(min-width:769px){
+@media screen and (min-width:769px){
 	#container{
 		overflow: hidden;
 	}
