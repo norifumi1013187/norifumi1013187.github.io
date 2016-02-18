@@ -14,35 +14,33 @@ body
 	margin:0 auto;
 }
 #header{
-background:red;
+background:#FF0000;
 color:white;
 font-size:30px;
 text-shadow:5px 5px 5px black;
 }
 
 #footer{
-background:Aquamarine;
-color:white;
-font-size:30px;
-text-shadow:5px 5px 5px black;
+background:#FFFFBB;
+color:black;
+font-size:20px;
 }
 
 #container{
 }
 
 #main{
-background:Darkorange;
-color:white;
-font-size:30px;
-text-shadow:5px 5px 5px black;
+background:#FFFF77;
+color:black;
+font-size:20px;
+
 
 }  
 
 #sub{
-background:yellow;
-color:white;
-font-size:30px;
-text-shadow:5px 5px 5px black;
+background:#FF773E;
+color:black;
+font-size:20px;
 }   
 
 #footerNavLink{
@@ -60,6 +58,18 @@ text-shadow:5px 5px 5px black;
 	text-align: center;
 }
 
+#footerNav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+#footerNav li{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+
 img{
 	max-width: 100%;
 }
@@ -67,22 +77,9 @@ img{
 
 
 /*スマホのスタイル*/
-/*
-@media screen and (max-width:480px){
-	#footerNavLink{
-		display: block;
-	}
-	#headerNav{
-		display: none;
-	}
-	#footerNav{
-		display: block;
-	}
+#headerNav{
+	display: none;
 }
-*/
-	#headerNav{
-		display: none;
-	}
 
 
 /*タブレットのスタイル*/
@@ -101,9 +98,9 @@ img{
 
 /*
 all:980px
-sub:200px
-margin:15px
-main:765px
+sub:480px
+margin:20px
+main:480px
 */
 
 @media screen and (min-width:769px){
@@ -112,11 +109,11 @@ main:765px
 	}
 	#main{
 	float: left;
-	width:78.0612245%; /*765px / 980px * 100 */
+	width:48.9795918%; /*480px / 980px * 100 */
 	}
 	#sub{
 		float: right;
-		width: 20.4081633%; /*200px / 980px * 100 */
+		width: 48.9795918%; /*480px / 980px * 100 */
 	}
 	
 }
